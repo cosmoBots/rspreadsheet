@@ -39,4 +39,8 @@ module Rspreadsheet
   def self.open(filename, options = {})
     self.new(filename, options)
   end
+
+  def self.my_version
+    'jg'
+  end
 end
